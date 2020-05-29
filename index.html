@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+</head>
+<body>
+    <div id=main></div>
+    <button id="newbookbutton">New Book</button>
+    <form id="newbookform" method="POST">
+        <div>
+            <label for="title">Title: </label>
+            <input type="text" name="title" id="title" required>
+        </div>
+        <div>
+            <label for="author">Author: </label>
+            <input type="text" name="author" id="author" required>
+        </div>
+        <div>
+            <label for="pages">Pages: </label>
+            <input type="number" name="pages" id="pages" required>
+        </div>
+        <div>
+            <label for="read">Read: </label>
+            <input type="checkbox" name="read" id="read" value="true">
+        </div>
+        <div>
+            <label for="submit"></label>
+            <input type="submit" name="submit" id="submit" required>
+        </div>
+    </form>
+    <script src=script.js></script>
+</body>
+</html>
